@@ -20,11 +20,6 @@ export const navLinks = [
   {
     label: "Courses",
     to: "/courses",
-    children: [
-      { label: "Science (PCMB)", to: "/courses" },
-      { label: "Science (PCMC)", to: "/courses" },
-      { label: "Commerce", to: "/courses" },
-    ],
   },
   { label: "Facilities", to: "/facilities" },
   { label: "Blogs", to: "/blogs" },
@@ -32,19 +27,8 @@ export const navLinks = [
   {
     label: "Results",
     to: "/results",
-    children: [
-      { label: "1 PUC", to: "/results" },
-      { label: "2 PUC", to: "/results" },
-    ],
   },
-  {
-    label: "V-Mastermind",
-    to: "/v-mastermind",
-    children: [
-      { label: "CET / NEET Coaching", to: "/v-mastermind" },
-      { label: "Test Series", to: "/v-mastermind" },
-    ],
-  },
+  
   { label: "Contact", to: "/contact" },
 ];
 
