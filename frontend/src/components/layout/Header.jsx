@@ -55,7 +55,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-white shadow-lg">
+    <header className="relative z-40 bg-white shadow-lg">
       <Container className="flex items-center justify-between py-3 !mx-0 !max-w-none px-4 sm:px-6">
         <Link to="/" className="flex items-center gap-3">
           {/* Logo */}

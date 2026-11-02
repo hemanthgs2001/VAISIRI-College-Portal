@@ -12,10 +12,6 @@ export const navLinks = [
   {
     label: "About Us",
     to: "/about",
-    children: [
-      { label: "Our Story", to: "/about" },
-      { label: "Management", to: "/about" },
-    ],
   },
   {
     label: "Courses",
